@@ -626,6 +626,10 @@ video {
   margin-bottom: 3.5rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -674,6 +678,10 @@ video {
   max-width: 24rem;
 }
 
+.max-w-screen-sm {
+  max-width: 640px;
+}
+
 .items-center {
   align-items: center;
 }
@@ -716,6 +724,11 @@ video {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .pt-6 {
@@ -808,6 +821,19 @@ video {
 
   .sm\:max-w-full {
     max-width: 100%;
+  }
+
+  .sm\:max-w-fit {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+
+  .sm\:max-w-screen-sm {
+    max-width: 640px;
+  }
+
+  .sm\:max-w-screen-2xl {
+    max-width: 1536px;
   }
 
   .sm\:text-4xl {
